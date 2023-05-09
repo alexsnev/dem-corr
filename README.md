@@ -63,5 +63,5 @@ This example will compute the displacement between two images (`image1` and `ima
 
 Results after cleaning of false correlation, plotted using QGIS :
 
-![results](https://github.com/nevena/dem-corr/blob/main/results/results.png?raw=true)
+![results](https://github.com/alexsnev/dem-corr/blob/main/results/results.png)
 
