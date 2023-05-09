@@ -14,6 +14,7 @@ This program calculates the displacement vectors between two georeferenced TIFF 
 
 **Note:** For large images, the code can take significant time to compute.
 
+
 ---
 
 ## Input Requirements
@@ -59,3 +60,8 @@ This example will compute the displacement between two images (`image1` and `ima
 - `nx_box = 50`, which is equal to 50 * 0.5m = 25 meters
 - `ny_box = 50`, which is equal to 50 * 0.5m = 25 meters
 - `max_disp = 20`, which is equal to 20 * 0.5 = 20 meters
+
+Results after cleaning of false correlation, plotted using QGIS :
+
+![results](https://github.com/nevena/dem-corr/blob/main/results/results.png?raw=true)
+
