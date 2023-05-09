@@ -1,7 +1,9 @@
 # Displacement Vectors Calculation Executable
 
 Author: Alexis Neven @ University of Neuchâtel, Switzerland
+
 Date: 2022305-10
+
 Info: This executable computes displacement vectors between two GeoTIFF images, to be applied in LandSlide displacement quantification using repeated DEM.
 
 ---
