@@ -12,6 +12,8 @@ Info: This executable computes displacement vectors between two GeoTIFF images, 
 
 This program calculates the displacement vectors between two georeferenced TIFF images using the maximum correlation of patterns method. It works by comparing small sub-images (boxes) from the first image to the corresponding areas in the second image and finding the maximum correlation between them. The displacement vector is then calculated based on the position difference of the maximum correlation.
 
+Because of how the method works, the resolution on the side of the image is decreased, and some spurious correlation occurs. The results close to the limits of the image (less than the box_size) should be discarded. 
+
 **Note:** For large images, the code can take significant time to compute.
 
 
